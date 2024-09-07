@@ -120,7 +120,7 @@
 
     $('.testimonial-carousel').owlCarousel({
       nav: true,
-      navText: ["<img src='./public/images/nav1.png'>", "<img src='./public/images/nav2.png'>"],
+      navText: ["<img src='../themes/custom/ux4mation/public/images/nav1.png'>", "<img src='../themes/custom/ux4mation/public/images/nav2.png'>"],
       dots: false,
       navigation: true,
       autoplayTimeout: 3000,

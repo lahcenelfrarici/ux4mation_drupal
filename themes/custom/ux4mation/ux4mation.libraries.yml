@@ -7,8 +7,9 @@ global-css:
       css/bootstrap.min.css: {}
       css/owl.carousel.min.css: {}
       css/owl.theme.default.min.css: {}
-      css/style.css: {}
+      css/styles.css: {}
       css/el_styles.css: {}
+      css/style_dr.css: {}
       css/responsive.css: {}
 
       # css/responsive.css: {}
@@ -19,7 +20,7 @@ global-js:
     js/bootstrap.bundle.min.js: {}
     js/owl.carousel.min.js: {}
     js/aos.js: {}
-    js/scripts.js: {}
+    js/index.js: {}
     js/index_el.js: {}
     # js/ajax_scrolle.js: {}
 
