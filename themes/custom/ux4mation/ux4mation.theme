@@ -1,0 +1,36 @@
+<?php
+
+use Drupal;
+use Drupal\taxonomy\Entity\Term;
+use Drupal\views\ViewExecutable;
+use Drupal\Core\Menu\MenuTreeParameters;
+
+/**
+ * Implements hook_preprocess_HOOK() for page templates.
+ */
+function ux4mation_preprocess_page(array &$variables)
+{
+
+}
+function ux4mation_preprocess(&$variables, $hook)
+{
+  $route_name = \Drupal::routeMatch()->getRouteName();
+  $request = \Drupal::request();
+  $route_name = \Drupal::routeMatch()->getRouteName();
+
+  $currentLanguageCode = \Drupal::languageManager()
+    ->getCurrentLanguage()
+    ->getId();
+  $currentLanguageCode = \Drupal::languageManager()
+    ->getCurrentLanguage()
+    ->getId();
+
+  $variables['language_id'] = $currentLanguageCode;
+  $variables['language_name'] = \Drupal::languageManager()->getCurrentLanguage()->getName();
+  $variables['language_id'] = $currentLanguageCode;
+  $variables['language_name'] = \Drupal::languageManager()->getCurrentLanguage()->getName();
+
+  $variables['route_name'] = $route_name;
+
+  
+}
