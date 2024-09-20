@@ -8,6 +8,7 @@ global-css:
       css/owl.carousel.min.css: {}
       css/owl.theme.default.min.css: {}
       css/styles.css: {}
+      css/weare.css: {}
       css/el_styles.css: {}
       css/style_dr.css: {}
       css/responsive.css: {}

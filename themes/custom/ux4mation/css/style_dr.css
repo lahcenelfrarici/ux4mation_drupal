@@ -1,0 +1,29 @@
+.custom-button-inner.more--servicec a {
+    border: initial;
+  }
+  .transform .btn-link {
+    text-decoration: none;
+    color: #7620C6;
+    text-align: center;
+    font-family: "Poppins";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+}
+.Stories___client .row .row>.col-sm-6:last-child {
+  margin-top: 3%;
+}
+
+.Stories___client .row .row>.col-sm-6:last-child .custom-button-inner {
+  margin-top: 5%;
+}
+.img---team-1 {
+  height: 314px;
+}
+
+.img---team-1 img {
+  height: -webkit-fill-available;
+  width: 100%;
+  object-fit: contain;
+}
