@@ -206,3 +206,125 @@ section.sc--footer-linkdden {
 .odd-even--box img {
   padding: 40px;
 }
+#my_contact .form-container {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+#my_contact .form-control {
+  color: #95A3C0;
+  line-height: 2;
+  background-color: #f5e5ff;
+  border: 1px solid #e5d8ff;
+}
+#my_contact .form-label.required::after {
+  content: " *";
+  color: red;
+}
+#my_contact .btn-contact{
+  line-height: 2;
+  width: 30%;
+  border-radius: 100px;
+  opacity: 1;
+  background: var(--uxx, linear-gradient(93deg, #5505D9 -2.35%, #A400A9 34.52%, #9E0099 56.16%, #950085 97.67%));
+  box-shadow: 0px 0px 59.6px 0px rgba(241, 33, 119, 0.20);
+  color: white;
+
+}
+#my_contact .contact-container {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  height: 400px;
+}
+
+#my_contact .contact-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../public/images/work__1.png');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* Adjust opacity as needed */
+  z-index: -1;
+}
+section#my_contact {}
+
+#my_contact form >div {
+    flex-direction: column;
+    display: flex;
+}
+
+#my_contact form >div label:after {
+    content: " *";
+    color: red;
+}
+
+#my_contact form >div input, #my_contact form >div select,#my_contact form >div input, #my_contact form >div textarea {
+    color: #95A3C0;
+    line-height: 2;
+    background-color: #f5e5ff;
+    border: 1px solid #e5d8ff;
+    padding: .375rem 2.25rem .375rem .75rem;
+        margin-bottom: 1rem !important;
+}
+
+#my_contact form input#edit-actions-submit {
+  width: 30%;
+  border-radius: 100px;
+  opacity: 1;
+  background: var(--uxx, linear-gradient(93deg, #5505D9 -2.35%, #A400A9 34.52%, #9E0099 56.16%, #950085 97.67%));
+  box-shadow: 0px 0px 59.6px 0px rgba(241, 33, 119, 0.20);
+  color: white !important;
+  margin-left: auto;
+}
+
+#my_contact form >div textarea {
+  width: 100%;
+}
+#my_contact form >div label {
+  margin-bottom: .5rem;
+}
+footer ul li::marker {
+  content: none;
+}
+#my_contact form >div {
+  width: 48%;
+}
+
+section#my_contact form {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#my_contact form >div:first-child {
+  width: 100%;
+}
+
+#my_contact form div .form-item-message {
+  width: 100%;
+}
+
+#my_contact form .form-item-message {
+  width: 100%;
+}
+
+#my_contact form .form-item-message textarea {
+  width: 100%;
+}
+
+#my_contact form #edit-actions {
+  width: 100%;
+}
