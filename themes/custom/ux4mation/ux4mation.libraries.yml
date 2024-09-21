@@ -9,6 +9,7 @@ global-css:
       css/owl.theme.default.min.css: {}
       css/styles.css: {}
       css/weare.css: {}
+      css/how_we.css: {}
       css/el_styles.css: {}
       css/style_dr.css: {}
       css/responsive.css: {}
