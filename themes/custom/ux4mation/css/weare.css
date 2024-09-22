@@ -692,7 +692,7 @@ div#items-card .card {
   text-align: left;
 }
 
-.sc--4 .card .card-body h3 {
+.sc--4 .card .card-body h3,.sc--4 .card .card-body h3 a {
   color: #111;
   font-family: Poppins;
   font-size: 20px;

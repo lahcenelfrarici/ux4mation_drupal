@@ -33,60 +33,31 @@
 #}
 
 
-{#
-{% set video_id = row._relationship_entities.tid_representative.field_youtube_video.value.0.video_id %}
-<div class="col-12 col-md-6 mb-4" data-aos="fade-up">
-    <div class="all-card-body">
-        <div class="item--video video-item  text-white bg-dark">
-            {% set video_id = row._relationship_entities.tid_representative.field_youtube_video.value.0.video_id %}
-{% set video_thumbnail_url = video_id ? 'https://img.youtube.com/vi/' ~ video_id ~ '/sddefault.jpg' : '/path/to/default/image.jpg' %}
+<div class="col-sm-4">
 
-            <img src="{{ video_thumbnail_url }}" alt="Video Thumbnail" class="video-thumbnail" loading="lazy">
-        </div>
-        <div class="card--body-sc">
-            <h2 class="h4">{{ fields.name.content }}</h2>
-            <a href="{{ path('view.videos.page_1',{'category': row._entity.tid.value}) }}">{{ "Tout voir"|t }} ></a>
-        </div>
-    </div>
-</div> #}
- {# <li class="my-4">
-            <div class="row">
-
-              <div class="col-sm-4">
-                <p class="work in">{{ fields.title.content }}
-                </p>
-                <p style="font-size: 20px;">{{ fields.field_sub_titre.content }}</p>
-              </div>
-              <div class="col-sm-4">
-                <p>{{ fields.body.content }}</p>
-              </div>
-              <div class="col-sm-4" style="justify-content: right;display: flex;">
-                <button type="button" class="btn"
-                  style=" width: 60%;margin-top: 30px;   background: linear-gradient(130deg, #792CFC 3%, #B23293 57%, #6D479C 100%); box-shadow: 0px 0px 59.6px rgba(241, 33, 119, 0.20); border-radius: 100px;">
-                  <div style="padding: 5px;border-radius: 20px; border: 1px #ffffff solid;"> <a href="#"
-                      style="color: #ffffff;">Discover more</a>
-                  </div>
-                </button>
-              </div>
-            </div>
-          </li> #}
- <div class="col-sm-4">
-
-              <div class="item" id="team">
-                <div class="card">
-                  <div class="card-header">
-                   <div class="img---team-1">
-                   {{ fields.field_image_box.content }}
-                   </div>
-                    <div class="icon">
-                      <img src="\themes\custom\ux4mation\public\images\bg---cercle.png" alt="Icon">
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <h3>{{ fields.title.content }}<img src="\themes\custom\ux4mation\public\images\link--link.png"></h3>
-                    <p class="position">{{ fields.field_sub_1.content }}</p>
-                    <p class="description">{{ fields.body.content }}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+	<div class="item" id="team">
+		<div class="card">
+			<div class="card-header">
+				<div class="img---team-1">
+					{{ fields.field_image_box.content }}
+				</div>
+				<div class="icon">
+					<img src="\themes\custom\ux4mation\public\images\bg---cercle.png" alt="Icon">
+				</div>
+			</div>
+			<div class="card-body">
+				<h3>
+           {{ fields.field_link_linkdden.content }}
+					{# <a href="#">{{ fields.title.content }}<img src="\themes\custom\ux4mation\public\images\link--link.png"></a> #}
+					{# <a href="{{ fields.field_link_linkdden.raw.uri }}">
+						{{ fields.title.content }}
+						<img src="/themes/custom/ux4mation/public/images/link--link.png">
+					</a> #}
+          <img src="/themes/custom/ux4mation/public/images/link--link.png">
+				</h3>
+				<p class="position">{{ fields.field_sub_1.content }}</p>
+				<p class="description">{{ fields.body.content }}</p>
+			</div>
+		</div>
+	</div>
+</div>

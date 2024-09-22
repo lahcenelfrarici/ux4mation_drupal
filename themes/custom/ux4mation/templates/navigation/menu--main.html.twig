@@ -45,15 +45,15 @@
 											<h2>{{ item.title }}</h2>
 
 											{% if loop.index == 1 %}
-												<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 1</p>
+												<p>{{ 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 1'|t }}</p>
 											{% elseif loop.index == 2 %}
-												<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2</p>
+												<p>{{ 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 2'|t }}</p>
 											{% elseif loop.index == 3 %}
-												<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 3</p>
+												<p>{{ 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 3'|t }}</p>
 											{% elseif loop.index == 4 %}
-												<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 4</p>
+												<p>{{ 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 4'|t }}</p>
 											{% else %}
-												<p>Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+												<p>{{ 'Lorem ipsum dolor sit amet consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 5'|t }}</p>
 											{% endif %}
 
 											{% if loop.index == 1 %}
@@ -121,34 +121,31 @@
 										<li>
 											{% if loop.index == 1 %}
 
-												<div class="img----right">
-													<img src="\themes\custom\ux4mation\public\images\joshua-earle--87JyMb9ZfU-unsplash 2.png">
-												</div>
+
+												{{ drupal_entity('block','ux4mation_menu1images') }}
 											{% elseif loop.index == 2 %}
 
-												<div class="img----right">
-													<img src="\themes\custom\ux4mation\public\images\culture.png">
-												</div>
+
+												{{ drupal_entity('block','ux4mation_menu2images') }}
 											{% elseif loop.index == 3 %}
 
-												<div class="img----right">
-													<img src="\themes\custom\ux4mation\public\images\joshua-earle--87JyMb9ZfU-unsplash 2.png">
-												</div>
+
+												{{ drupal_entity('block','ux4mation_menu3images') }}
 											{% elseif loop.index == 4 %}
 
-												<div class="img----right">
-													<img src="\themes\custom\ux4mation\public\images\culture.png">
-												</div>
+
+												{{ drupal_entity('block','ux4mation_menu4images') }}
 											{% else %}
 
 												<div class="img----right">
 													<img src="\themes\custom\ux4mation\public\images\joshua-earle--87JyMb9ZfU-unsplash 2.png">
 												</div>
+												{{ drupal_entity('block','ux4mation_section5transformhuman') }}
 											{% endif %}
 											{#
-																																	<div class="img----right">
-																																		<img src="\themes\custom\ux4mation\public\images\joshua-earle--87JyMb9ZfU-unsplash 2.png">
-																																	</div> #}
+																																												<div class="img----right">
+																																													<img src="\themes\custom\ux4mation\public\images\joshua-earle--87JyMb9ZfU-unsplash 2.png">
+																																												</div> #}
 										</li>
 									</div>
 								</ul>
@@ -160,8 +157,7 @@
 		</ul>
 
 		{#  #}
-		{# <ul
-			id="menu-second-main-mobile" class="list list-unstyled list-product-nav" style="display:none">
+		<ul id="menu-second-main-mobile" class="list list-unstyled list-product-nav" style="display:none">
 
 			{% for item in items %}
 
@@ -210,6 +206,6 @@
 
 				</li>
 			{% endfor %}
-		</ul> #}
+		</ul>
 	{% endmacro %}
 	{#  #}
