@@ -8,7 +8,7 @@
       nav: true,
       items: 3,
       center: true, // Add this line
-      navText: ["<img src='../themes/custom/ux4mation/public/images/left-arrow-1.png'>", "<img src='../themes/custom/ux4mation/public/images/right-arrow-1.png'>"],
+      navText: ["<img src='../themes/custom/ux4mation/public/images/left__1.png'>", "<img src='../themes/custom/ux4mation/public/images/left__2.png'>"],
 
       responsive: {
         0: {
@@ -118,7 +118,7 @@
 
     $('.testimonial-carousel').owlCarousel({
       nav: true,
-      navText: ["<img src='../themes/custom/ux4mation/public/images/left-arrow-1.png'>", "<img src='../themes/custom/ux4mation/public/images/right-arrow-1.png'>"],
+      navText: ["<img src='../themes/custom/ux4mation/public/images/left__1.png'>", "<img src='../themes/custom/ux4mation/public/images/left__2.png'>"],
       dots: false,
       navigation: true,
       autoplayTimeout: 3000,

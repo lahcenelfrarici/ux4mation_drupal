@@ -526,3 +526,183 @@ width: 100%;
   align-items: center;
   text-align: center;
 }
+.img---card {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#customers-services .owl-item.active.center .item {
+  border-radius: 20px !important;!i;!;
+  overflow: hidden;
+}
+
+div#customers-services h3 {
+  -webkit-text-stroke-width: 0.5px;
+  font-size: 35px;
+  margin: 0;
+}
+div#customers-services .owl-nav button, div#customers_work_1 .owl-nav button
+{
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background: linear-gradient(268deg, #7620C6 14.51%, #B62897 95.96%);
+}
+div#carouselExampleCaptions .animate--icon.position1---icon {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+.transform .background-image-container {
+  background: linear-gradient(132deg, #5704E0 23.43%, #F331EA 84.79%, #950085 127.58%, #9E0099 190.85%);
+  opacity: 0.9;
+  border-radius: 15px;
+}
+.transform .custom-btn a {
+  gap: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+  color: #7620C6;
+  text-align: center;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px; /* 192.857% */
+}
+.testimonial-carousel .owl-nav button {
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background: linear-gradient(268deg, #7620C6 14.51%, #B62897 95.96%) !important;
+  width: 54px !important;
+}
+.col-lg-6.col-sm-12.scroll-column img {
+
+  border-radius: 25px;
+}
+.new--link--lopp img {width: 53px !important;!i;!;height: 53px !important;!i;!;}
+
+.new--link .new--link--lopp {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.new--link--lopp div:last-child {
+    text-align: right;
+}
+.img--footer-li {
+  background: linear-gradient(253deg, #5704E0 -12.67%, #F331EA 33.36%, #9E0099 77.47%, #950085 138.75%);
+}
+
+.img--footer-li >img {
+  display: none;
+}
+
+.img--footer-li {
+  height: 453px;
+}
+
+.Stories___client .container-fluid>.row>div:first-child {
+  background: linear-gradient(80deg, #5704E0 -13.11%, #F331EA 56.42%, #950085 105.68%, #9E0099 105.68%) !important;
+  box-shadow: 0px 22px 73.1px 0px rgba(0, 0, 0, 0.20);
+}
+.wrapper-accessibilty {
+  height: max-content;
+  bottom: 0;
+  margin: auto;
+}
+.store_2 img {
+  display: flex;
+  margin-left: auto;
+}
+.custom-button-inner.more--servicec {
+  width: fit-content;
+}
+.wrapper--linkden .row>div iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.link----link  h2 a{
+  color: #FFF;
+  text-align: center;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #FFF;
+  font-family: Nasalization;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 170% */
+}
+
+.link----link >a {
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  background: linear-gradient(268deg, #7620C6 14.51%, #B62897 95.96%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.link----link img {
+  background: transparent;
+  width: auto !important;
+  height: auto !important;
+}
+.jack-lorem-parent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-direction: column;
+  height: auto;
+  gap: 3px 0;
+}
+
+.handsome-blond-guy-with-blue-e-icon {
+  overflow: auto;
+  position: initial;
+  order: 1;
+  height: 100%;
+  width: 55%;
+  border-radius: 0;
+  object-fit: cover;
+}
+
+.jack-lorem-parent >div {
+  position: initial;
+}
+
+.jack-lorem {
+  order: 2;
+}
+
+.head-of-lorem {
+  order: 3;
+}
+
+.skill-iconslinkedin {
+  position: initial;
+  order: 4;
+  height: 26px;
+  width: 26px;
+  overflow: initial;
+}
+.img----odd-eve\, img {
+  width: 100%;
+  height: 100%;
+  box-shadow: initial;
+  padding: 0;
+}
+
+.box---2 .container .img----odd-eve\, {
+  box-shadow: initial;
+  background: transparent;
+}

@@ -227,7 +227,7 @@
     items: 1,
 
 
-    navText: ["<img src='../themes/custom/ux4mation/public/images/left-arrow-1.png'>", "<img src='../themes/custom/ux4mation/public/images/right-arrow-1.png'>"],
+    navText: ["<img src='../themes/custom/ux4mation/public/images/left__1.png'>", "<img src='../themes/custom/ux4mation/public/images/left__2.png'>"],
 
     responsive: {
       0: {
