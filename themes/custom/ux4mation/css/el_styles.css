@@ -1,3 +1,273 @@
+nav#block-ux4mation-careers ul li:nth-child(4) a {
+    display: block;
+    line-height: 20px !important;
+}
+div#iconayman {
+    left: 85%;
+}
+.left--count h1 {
+    font-family: 'nasalization';
+}
+
+.jack-lorem-parent a {
+    color: black;
+}
+ul.dropdown-menu.show {
+    display: none;
+}
+nav#block-ux4mation-socialresponsability ul li:nth-child(4) a {
+    text-transform: none !important;
+}
+p.position {
+  text-transform: none!important; 
+}
+.card-header {
+    background-color: #EAEBEB !important;
+}
+.testimonials_box .card-header .icon {
+    bottom: -40px !important;
+    background-color: transparent;
+    padding: 0;
+}
+.testimonials_box .card-body h3 a {
+    display: flex;
+    position: relative;
+    top: 10px !important;    
+}
+#myVideo {
+  
+  min-width: 100%;
+  min-height: 100%;
+}
+.services {
+  background: linear-gradient(132deg, #5704E0 23.43%, #F331EA 84.79%, #950085 127.58%, #9E0099 190.85%) !important;
+  opacity: 0.9;
+   
+}
+nav#block-ux4mation-whatwedo ul li:nth-child(4) a {
+    text-transform: none !important;
+}
+footer.footer-box ul li:first-child a {
+  color: #FFF !important;
+  font-family: "Poppins";
+  font-size: 15.3px !important;
+  font-style: normal;
+  font-weight: 900 !important;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+footer.footer-box ul li:not(:first-child) a {
+  color: #E3E3E3 !important;
+  font-family: "Poppins";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+a#hreflink {
+    color: black;
+}
+@keyframes zoomInOut {
+  0% {
+    transform: scale(0.4); /* Start smaller (zoomed out) */
+  }
+  50% {
+    transform: scale(1.3); /* Zoom in more */
+  }
+  100% {
+    transform: scale(0.4); /* Return to zoomed out */
+  }
+}
+.move--orizintale {
+  animation: zoomInOut 6s ease infinite !important;
+}
+
+
+/* @keyframes zoomInOut2 {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.move--orizintale2 {
+  animation: zoomInOut2 2s ease-in-out forwards;
+} */
+@keyframes fadeOpacity {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fadeOpacity1 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.move--orizintale2 {
+
+  animation: fadeOpacity 4s ease-in-out infinite;
+  animation-delay: 2s;
+}
+.store_2 {
+  gap: 30px 0;
+  display: flex;
+  align-items: stretch;
+  align-content: center;
+  justify-content: end;
+  flex-direction: column;
+}
+.odd-even--box img {
+    width: 90%;
+    padding: 0px !important;
+}
+.img---team-1 {
+    height: 228px!important;
+}
+.jack-lorem-parent >img:first-child {
+    width: 85%;
+    height: 100%;
+}
+.sc--4 .card .card-body p.position {
+    text-align: left;
+    font-size: 15px;
+}
+ul #linck1 {
+    background: var(--Header, linear-gradient(163deg, #5704E0 7.78%, #F331EA 57.07%, #9E0099 83.37%, #950085 169.96%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-size: 17px;
+    FONT-WEIGHT: 700;
+}
+#preloader img {
+ 
+    border-radius: 0px !important;    
+}
+#preloader .image-container {
+    position: relative;
+    width: 80px !important;
+    height: 64px !important;
+}
+
+@media (max-width:991px) {
+  .custom-col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+   div#navbarNavDropdown .menu-subs-inner ul .menu-subs-col ul>li:first-child {
+    display: none;
+}
+
+li.menu-subs-col {}
+
+li.menu-subs-col {}
+
+li.menu-subs-col .menu--items-no-child>div:first-child {
+    padding-bottom: 10px;
+    margin: 0;
+    width: fit-content;
+  
+}
+
+#preloader img {
+ 
+    border-radius: 0px !important;    
+}
+
+
+
+li.menu-subs-col .menu--items-no-child>div:first-child a {
+    position: relative;
+    color: #9E0099;
+    border-bottom: 1px solid #9E0099;
+    -webkit-text-stroke-color: #9E0099;
+}
+
+li.menu-subs-col .menu--items-no-child>div:first-child a:after {
+    background-color: #F331EA;
+    width: 100%;
+    display: block;
+  height:1px;
+}
+ }
+@media (max-width: 576px) {
+  .custom-col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+.sc--Leadership p   {
+        text-align: left !important;
+
+}
+.store_2  h2   {
+     align-items: flex-start !important;
+}
+  h1#training {
+    text-align: left;
+    color: #000;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    font-family: Nasalization;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+img#col {
+    padding: 0px !important;
+}
+.custom-col {
+  flex: 0 0 20%; /* Each column takes up 20% of the row */
+  max-width: 20%;
+}
+
+.content {
+  padding: 20px;
+  text-align: center;
+  background-color: #f0f0f0; /* Just for visibility */
+  border: 1px solid #ccc;
+}
+
+h1#h1serve {
+    font-family: "nasalization";
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 70px;
+    font-size: 60px;
+}
+.custom-title {
+  font-weight: bold;
+}
+.box .content-box .row.bottom {
+    padding: 0px 50px !important;
+}
+div#titre2 {
+    background: var(--li, linear-gradient(268deg, #7620C6 14.51%, #B62897 95.96%));
+     -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 @font-face {
   font-family: "nasalization";
   src: url("../webfonts/nasalization-rg.otf");
@@ -73,9 +343,7 @@
   align-content: center;
 }
 
-.custom-title {
-  margin-top: 5%;
-}
+
 
 .custom-subtitle {
   margin-top: 5%;
@@ -273,9 +541,9 @@ section.transform.section-padding {}
   border-radius: 100px;
 }
 
-.transform .btn-content {
+/* .transform .btn-content {
   padding: 5px;
-}
+} */
 
 .transform .btn-link {
   color: #7620C6;
@@ -490,26 +758,7 @@ footer.footer-box .fluid .container-fluid .row {
   font-weight: bold;
 }
 
-footer.footer-box ul li:first-child a {
-  color: #FFF !important;
-  font-family: "Poppins";
-  font-size: 14.625px !important;
-  font-style: normal;
-  font-weight: 600 !important;
-  line-height: 36px;
-  text-transform: uppercase;
-}
-
-footer.footer-box ul li:not(:first-child) a {
-  color: #E3E3E3 !important;
-  font-family: "Poppins";
-  font-size: 14.625px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 36px;
-  text-transform: uppercase;
-}
-
+ 
 .botom--footer>div:last-child {
   display: flex;
   justify-content: right;
@@ -630,17 +879,19 @@ footer.footer-box section {
 }
 
 .new--link .new--link--lopp {
-  padding: 30px;
+  padding: 0px 30px;
 }
+
 
 .item-wrapper-news p {
-  color: #656262;
+  white-space: nowrap;
+  color: #000000;
   font-family: "Poppins";
-  font-size: 16px;
+  font-size: 12px;
   font-style: normal;
-  font-weight: 400;
-
+  font-weight: bold;
 }
+
 
 .item-wrapper-news h2+p {
   color: #F5F5F5;
@@ -1178,9 +1429,7 @@ div#slider-mobisl p {
   }
 }
 
-.move--orizintale {
-  animation: moveHorizontally 2s ease-in-out infinite;
-}
+
 
 .custom-button-inner a {
   color: #7620C6;
@@ -1247,6 +1496,16 @@ div#customers-services .service-item button a:hover {
 }
 
 .img---card img {
+  width: 100%;
+  height: 100% !important;
+}
+
+ 
+.img-sec1-card  {
+  border-radius: 20px;
+  overflow: hidden;
+}
+.img-sec1-card img {
   width: 100%;
   height: 100% !important;
 }
@@ -1333,7 +1592,7 @@ div#customers_work_1 .service-item button a {
   display: inline-block;
   counter-increment: slides-num;
   margin-right: 0;
-  width: 3px !important;
+  width: 1px !important;
 }
 
 #customers-services .owl-dot span,
@@ -1348,7 +1607,7 @@ div#customers_work_1 .service-item button a {
   vertical-align: middle;
   font-size: 20px;
   position: absolute;
-  left: 0;
+  left: -2px;
   top: 0;
   color: #FFF;
   font-family: "Poppins";
@@ -1408,20 +1667,20 @@ div#customers_work_1 .owl-nav .owl-next {
 }
 
 .testimonials_box h1 {
-  color: #111;
-  -webkit-text-stroke-width: 1;
-  -webkit-text-stroke-color: #111;
-  font-family: "nasalization";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 70px;
-  /* 116.667% */
-  letter-spacing: -3px;
+    color: #111;
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #111;
+    font-family: "nasalization";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 73px;
+    letter-spacing: -3px;
 }
 
 
 .testimonials_box p {
+    margin-top: 5%;
   color: #111;
   font-family: "Poppins";
   font-size: 16px;
@@ -1503,15 +1762,17 @@ div#customers_work_1 .owl-nav .owl-next {
 }
 
 .testimonials_box .card-body h3 {
-  display: flex;
+  display: ruby;
   gap: 0 20px;
   align-items: center;
 }
 
 .testimonials_box .card-body h3 img {
+  position: relative;
   max-width: max-content;
   width: 26px;
   height: 26px;
+  left: 10px;
 }
 
 .testimonials_box .row {
@@ -1526,8 +1787,7 @@ section.testimonials_box.section-padding {
 }
 
 section.Stories___client.section-padding {
-  padding-top: 0px;
-  padding-bottom: 0px;
+ 
   z-index: 0;
   position: relative;
 }
@@ -1671,13 +1931,10 @@ section.logo.section-padding>div {
 .work--with h1 {
   color: #000;
   text-align: center;
-  -webkit-text-stroke-width: 1;
-  -webkit-text-stroke-color: #000;
+ 
   font-family: "nasalization";
-  font-size: 60px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 70px;
+  font-size: 50px;
+ 
   /* 116.667% */
   letter-spacing: -3px;
 }
@@ -1699,7 +1956,7 @@ section.section-padding.work--with {
 }
 
 .work--with .col-sm-12 .row {
-  width: 76%;
+  width:90%;
   margin: auto;
 }
 
@@ -1742,16 +1999,19 @@ section.section-padding.work--with {}
 }
 .cellele .col-sm-12 .work {
   font-family: "nasalization";
-  font-size: 32px;
+  font-size: 30px;
   font-style: normal;
   font-weight: 400;
-  /* line-height: 56px; */
+  line-height: 56px; 
   /* 175% */
   letter-spacing: -2px;
   background: var(--uxx, linear-gradient(93deg, #5505D9 -2.35%, #A400A9 34.52%, #9E0099 56.16%, #950085 97.67%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+ul #id1 img {
+    width: auto;
 }
 
 
@@ -2016,9 +2276,9 @@ section.logo.section-padding .brand-carousel {
   height: 100%;
   object-fit: none;
 }
-#customers-testimonials .item .row >div:last-child {
-  transform: scaleX(-1);
-}
+/*#customers-testimonials .item .row >div:last-child {*/
+/*  transform: scaleX(-1);*/
+/*}*/
 .right--fixedd-icon {
   padding-right: 0;
 }
@@ -2333,7 +2593,7 @@ section#social--2 .row .custom-button-link {
 }
 .col--left img {width: 30%;text-align: right;margin-left: auto;display: block;margin-top: 10px;}
 #social--3 .row .showing--class:first-child .col--left {
-  padding: 30px 30px 30px 153px;
+  padding: 30px 30px 30px 110px;
   text-align: left;
 }
 
@@ -2683,4 +2943,14 @@ section#social--3 {
 }
 .certifica--all .btn.mt-5 {
   background: linear-gradient(130deg, #792CFC 3%, #B23293 57%, #6D479C 100%) !important;
+}
+.Stories___client .container-fluid>.row>div:first-child {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.Stories___client h1 strong {
+  display: flex;
+  align-items: center !important;
+  gap: 0 47px;
 }

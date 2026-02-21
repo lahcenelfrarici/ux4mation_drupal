@@ -5,10 +5,11 @@
       margin: 5,
       loop: true,
       dots: true,
+       autoHeight: true,
       nav: true,
       items: 3,
       center: true, // Add this line
-      navText: ["<img src='../themes/custom/ux4mation/public/images/left__1.png'>", "<img src='../themes/custom/ux4mation/public/images/left__2.png'>"],
+      navText: ["<img src='/../themes/custom/ux4mation/public/images/left-arrow-1.png'>", "<img src='/../themes/custom/ux4mation/public/images/right-arrow-1.png'>"],
 
       responsive: {
         0: {
@@ -91,24 +92,24 @@
 
     // carousel logo
 
-    $('.brand-carousel').owlCarousel({
-      dots: false,
-      autoplayTimeout: 700,
-      loop: true,
-      margin: 10,
-      autoplay: true,
-      responsive: {
-        0: {
-          items: 2
-        },
-        600: {
-          items: 3
-        },
-        1000: {
-          items: 5
-        }
-      }
-    })
+$('.brand-carousel').owlCarousel({
+  dots: false,
+  autoplayTimeout: 700,
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  responsive: {
+    0: {
+      items: 2
+    },
+    600: {
+      items: 3
+    },
+    1000: {
+      items: 8
+    }
+  }
+});
 
 
 
@@ -118,13 +119,14 @@
 
     $('.testimonial-carousel').owlCarousel({
       nav: true,
-      navText: ["<img src='../themes/custom/ux4mation/public/images/left__1.png'>", "<img src='../themes/custom/ux4mation/public/images/left__2.png'>"],
+      navText: ["<img src='/../themes/custom/ux4mation/public/images/left__1.png'>", "<img src='/../themes/custom/ux4mation/public/images/left__2.png'>"],
       dots: false,
       navigation: true,
       autoplayTimeout: 3000,
+      autoHeight: true,
       loop: true,
       margin: 10,
-      autoplay: true,
+      autoplay: false,
       responsive: {
         0: {
           items: 1

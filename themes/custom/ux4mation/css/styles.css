@@ -1,3 +1,4 @@
+
 .fixed-column {
   height: 100vh; /* Assure que la colonne fixe occupe toute la hauteur de la vue */
   position: sticky;
@@ -223,7 +224,10 @@ img.disable-color.logo {
     display: block;
   }
 }
-
+img.testi {
+    display: inline !important;
+    width: auto !important;
+}
 .services .row{
   margin-top: 0px !important;
 }
@@ -233,7 +237,7 @@ img.disable-color.logo {
 }
 .team{
 
-    padding: 80px;
+    padding: 40px;
     border-radius: 20px;
     background: #FFF;
     box-shadow: 0px -1px 73.1px 0px rgba(0, 0, 0, 0.15);

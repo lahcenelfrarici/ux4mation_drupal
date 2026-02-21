@@ -12,6 +12,7 @@ global-css:
       css/how_we.css: {}
       css/el_styles.css: {}
       css/style_dr.css: {}
+      css/style_dr_1.css: {}
       css/responsive.css: {}
 
       # css/responsive.css: {}
@@ -20,7 +21,7 @@ global-js:
   version: 1.0
   js:
     js/bootstrap.bundle.min.js: {}
-    js/owl.carousel.min.js: {}
+    js/owl.carousel.min.js: {defer: true}
     js/aos.js: {}
     js/index.js: {}
     js/index_el.js: {}
@@ -39,6 +40,6 @@ global-css-responsive:
     theme:
       css/responsive.css: {}
 
-addtoany-js:
-  js:
-    js/page.js: {}
+# addtoany-js:
+#   js:
+#     js/page.js: {}

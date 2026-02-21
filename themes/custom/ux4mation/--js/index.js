@@ -5,13 +5,12 @@
       margin: 5,
       loop: true,
       dots: true,
+       autoHeight: true,
       nav: true,
       items: 3,
       center: true, // Add this line
-      navText: [
-        '<i class="fa-solid fa-arrow-left"></i>', // Left arrow icon
-        '<i class="fa-solid fa-arrow-right"></i>' // Right arrow icon
-      ],
+      navText: ["<img src='../themes/custom/ux4mation/public/images/left-arrow-1.png'>", "<img src='../themes/custom/ux4mation/public/images/left-arrow-1.png'>"],
+
       responsive: {
         0: {
           items: 1
@@ -120,10 +119,11 @@
 
     $('.testimonial-carousel').owlCarousel({
       nav: true,
-      navText: ["<img src='../themes/custom/ux4mation/public/images/nav1.png'>", "<img src='../themes/custom/ux4mation/public/images/nav2.png'>"],
+      navText: ["<img src='../themes/custom/ux4mation/public/images/left__1.png'>", "<img src='../themes/custom/ux4mation/public/images/left__2.png'>"],
       dots: false,
       navigation: true,
       autoplayTimeout: 3000,
+      autoHeight: true,
       loop: true,
       margin: 10,
       autoplay: true,

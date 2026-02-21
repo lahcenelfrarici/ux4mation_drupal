@@ -103,6 +103,7 @@ section#wrapper---search .right--fixedd-icon img {
   top: 1.5em;
   color: #ededed;
   font-weight: bold;
+  font-family: 'Maven Pro', sans-serif;
   transform: rotate(-90deg);
 }
 
@@ -162,6 +163,7 @@ section#wrapper---search .right--fixedd-icon img {
   width: 100%;
   text-align: center;
   color: #999;
+  font-family: georgia, times;
   font-style: italic;
   margin: 2em 0;
 }
@@ -169,6 +171,7 @@ section#wrapper---search .right--fixedd-icon img {
 #wrapper---search .cta a {
   font-size: 1.5em;
   font-style: normal;
+  font-family: 'Maven Pro', sans-serif;
   text-decoration: none;
   line-height: 1.5em;
 }
@@ -741,6 +744,7 @@ div#items-card .card {
   color: #FFF;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: #B62897;
+  font-family: Sora;
   font-size: 100px;
   font-style: normal;
   font-weight: 600;
@@ -1118,8 +1122,8 @@ section.transform.section-padding.img--slider-scroll {
   gap: 30px 0;
   display: flex;
   flex-direction: column;
-  /*align-items: center;*/
-  /*justify-content: center;*/
+  align-items: center;
+  justify-content: center;
 }
 
 .testmonia--wrapper div#customers-testimonialss {
