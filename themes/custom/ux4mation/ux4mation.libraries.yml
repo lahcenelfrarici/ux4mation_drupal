@@ -29,6 +29,7 @@ global-js:
 
   dependencies:
     - core/jquery
+    - core/once
 
 global-css-rtl:
   css:

@@ -586,33 +586,102 @@ items: 2,
 let clickedLink = null;
 
   // CLICK DOWNLOAD → OPEN MODAL
-  $('.white-papers-section').on('click', '.card-download', function (e) {
-    e.preventDefault(); // prevent download
+  // $('.white-papers-section').on('click', '.card-download', function (e) {
+  //   e.preventDefault(); // prevent download
 
-    clickedLink = this; // store clicked link
-    $('.whitepaper-modal-custom').fadeIn();
-  });
+  //   clickedLink = this; // store clicked link
+  //   $('.whitepaper-modal-custom').fadeIn();
+  // });
 
-  // CLOSE MODAL
+  // // CLOSE MODAL
   $('.modal-close, .whitepaper-modal-overlay').on('click', function () {
     $('.whitepaper-modal-custom').fadeOut();
   });
 
-  // FORM SUBMIT
-  $('.whitepaper-form').on('submit', function (e) {
-    e.preventDefault();
+  // // FORM SUBMIT
+  // $('.whitepaper-form').on('submit', function (e) {
+  //   e.preventDefault();
 
-    if (this.checkValidity()) {
+  //   if (this.checkValidity()) {
 
-      $('.whitepaper-modal-custom').fadeOut();
+  //     $('.whitepaper-modal-custom').fadeOut();
 
-      if (clickedLink) {
-        window.location.href = $(clickedLink).attr('href');
-      }
+  //     if (clickedLink) {
+  //       window.location.href = $(clickedLink).attr('href');
+  //     }
 
-      this.reset();
-    }
+  //     this.reset();
+  //   }
 
+  // });
+if ($(".white-papers-section.transform").length) {
+    $("body").addClass("remove___modal");
+  }
+})(jQuery);
+document.addEventListener("DOMContentLoaded", function () {
+  // 1️⃣ CLICK DOWNLOAD → OPEN MODAL ONLY
+  document.querySelectorAll(".card-download").forEach(function (link) {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      let pdf = this.getAttribute("data-pdf");
+      // store selected pdf
+      sessionStorage.setItem("selected_pdf", pdf);
+      document.querySelector(".whitepaper-modal-custom").style.display = "block";
+    });
   });
 
-})(jQuery);
+  // 2️⃣ AFTER PAGE RELOAD → CHECK SUCCESS
+  let storedPdf = sessionStorage.getItem("selected_pdf");
+  // Webform success message exists?
+  let success = document.querySelector(".webform-confirmation-modal");
+
+  if (storedPdf && success) {
+    // Create a temporary link and click it to open PDF in new tab
+    let a = document.createElement("a");
+    a.href = storedPdf;
+    a.target = "_blank";
+    a.download = "";
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    // clear storage
+    sessionStorage.removeItem("selected_pdf");
+  }
+});
+
+// document.addEventListener("DOMContentLoaded", function () {
+
+//   // 1️⃣ CLICK DOWNLOAD → OPEN MODAL ONLY
+//   document.querySelectorAll(".card-download").forEach(function (link) {
+
+//     link.addEventListener("click", function (e) {
+//       e.preventDefault();
+
+//       let pdf = this.getAttribute("data-pdf");
+
+//       // store selected pdf
+//       sessionStorage.setItem("selected_pdf", pdf);
+
+//       document.querySelector(".whitepaper-modal-custom").style.display = "block";
+//     });
+
+//   });
+
+
+//   // 2️⃣ AFTER PAGE RELOAD → CHECK SUCCESS
+//   let storedPdf = sessionStorage.getItem("selected_pdf");
+
+//   // Webform success message exists?
+//   let success = document.querySelector(".webform-confirmation-modal");
+
+//   if (storedPdf && success) {
+
+//     // download automatically
+//     window.location.href = storedPdf;
+
+//     // clear storage
+//     sessionStorage.removeItem("selected_pdf");
+
+//   }
+
+// });

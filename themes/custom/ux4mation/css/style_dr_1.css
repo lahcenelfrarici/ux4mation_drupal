@@ -466,12 +466,21 @@
   flex: 1;
 }
 
-.whitepaper-modal-custom .form-group {
+.whitepaper-modal-custom .form-item {
   margin-bottom: 15px;
 }
+.whitepaper-modal-custom .modal-right form .modal----wrapper {
+  display: none;
+}
+.modal-right form .form-item input{
+  margin-top: 0;
+}
+.modal-right form .checkbox label {
+  display: block;
+}
 
-.whitepaper-modal-custom .form-group input[type="text"],
-.whitepaper-modal-custom .form-group input[type="email"] {
+.whitepaper-modal-custom .form-item input[type="text"],
+.whitepaper-modal-custom .form-item input[type="email"] {
   width: 100%;
   padding: 12px;
   border-radius: 10px;
@@ -540,13 +549,13 @@
   letter-spacing: 0.1px;
 }
 
-.modal-right form .form-group {
+.modal-right form .form-item {
   border-radius: 18px;
   border: 1px solid var(--Grey-Grey-20, #E5E7EB);
   background: #F4E9FF;
 }
 
-.modal-right form .form-group input::placeholder {
+.modal-right form .form-item input::placeholder {
   color: #95A3C0;
 
   font-size: 16px;
@@ -556,7 +565,7 @@
   /* 150% */
 }
 
-.modal-right form .form-group input {
+.modal-right form .form-item input {
   width: 100%;
   padding: 12px;
   border-radius: 10px;
@@ -571,7 +580,7 @@
   box-shadow: 0 0 59.6px 0 rgba(241, 33, 119, 0.20);
 }
 
-.modal-right form .form-group input {
+.modal-right form .form-item input {
   border-radius: 18px;
   border: 1px solid var(--Grey-Grey-20, #E5E7EB);
   background: #F4E9FF;
@@ -623,6 +632,35 @@
 }
 .whitepaper-modal-custom .modal-right form {
   margin-top: 5%;
+}
+.whitepaper-modal-custom .modal-right form label {
+  display: none;
+}
+.modal-right form .form-item-policy {
+  border: 0;
+  background: transparent;
+  background: transparent;
+  border: 0;
+  flex-direction: initial;
+  display: flex;
+  gap: 0 13px;
+}
+.modal-right form .form-item-policy input {
+  width: auto;
+}
+.modal-right form .form-item-policy label {
+  display: block;
+  font-size: 12px;
+}
+
+.remove___modal .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.webform-confirmation-modal {
+  display: none;
+}
+.remove___modal #drupal-live-announce {
+  display: none;
+}
+.remove___modal .ui-widget-overlay.ui-front {
+  display: none;
 }
 @media (max-width: 991px) {
 
