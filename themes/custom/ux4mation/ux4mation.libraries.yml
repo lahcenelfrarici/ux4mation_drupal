@@ -44,3 +44,7 @@ global-css-responsive:
 # addtoany-js:
 #   js:
 #     js/page.js: {}
+admin-fix:
+  css:
+    theme:
+      css/admin-fix.css: {}

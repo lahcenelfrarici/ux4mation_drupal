@@ -479,9 +479,16 @@
       nav: false,
       dots: false,
       responsive: {
-        0: { items: 1,dots: true, },
-        768: { items: 2 },
-        1200: { items: 3 }
+        0: {
+          items: 1,
+          dots: true,
+        },
+        768: {
+          items: 2
+        },
+        1200: {
+          items: 3
+        }
       },
       onInitialized: updateArrows,
       onTranslated: updateArrows
@@ -565,7 +572,7 @@
   //
 
   $('#owl___item_all').owlCarousel({
-items: 2,
+    items: 2,
     loop: true,
     margin: 30,
     dots: true,
@@ -578,12 +585,16 @@ items: 2,
     ],
 
     responsive: {
-      0: { items: 1 },
-      768: { items: 2 }
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      }
     }
   });
-//
-let clickedLink = null;
+  //
+  let clickedLink = null;
 
   // CLICK DOWNLOAD → OPEN MODAL
   // $('.white-papers-section').on('click', '.card-download', function (e) {
@@ -614,7 +625,7 @@ let clickedLink = null;
   //   }
 
   // });
-if ($(".white-papers-section.transform").length) {
+  if ($(".white-papers-section.transform").length) {
     $("body").addClass("remove___modal");
   }
 })(jQuery);

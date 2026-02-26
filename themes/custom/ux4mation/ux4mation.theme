@@ -4,6 +4,24 @@ use Drupal;
 use Drupal\taxonomy\Entity\Term;
 use Drupal\views\ViewExecutable;
 use Drupal\Core\Menu\MenuTreeParameters;
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function admin_fix_page_attachments_alter(array &$attachments) {
+
+  if (\Drupal::service('router.admin_context')->isAdminRoute()) {
+
+    $attachments['#attached']['html_head'][] = [
+      [
+        '#tag' => 'style',
+        '#value' => '.messages-list{display:none!important;}',
+      ],
+      'admin_fix_hide_messages',
+    ];
+
+  }
+
+}
 
 /**
  * Implements hook_preprocess_HOOK() for page templates.

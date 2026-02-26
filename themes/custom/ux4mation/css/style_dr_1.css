@@ -469,12 +469,15 @@
 .whitepaper-modal-custom .form-item {
   margin-bottom: 15px;
 }
+
 .whitepaper-modal-custom .modal-right form .modal----wrapper {
   display: none;
 }
-.modal-right form .form-item input{
+
+.modal-right form .form-item input {
   margin-top: 0;
 }
+
 .modal-right form .checkbox label {
   display: block;
 }
@@ -499,6 +502,7 @@
 .modal-left p span {
   opacity: 0.1;
 }
+
 .modal-left h3 {
   display: flex;
   align-content: center;
@@ -608,7 +612,7 @@
   gap: 0 10px;
 }
 
-.modal-right form  .checkbox {
+.modal-right form .checkbox {
   background: transparent;
   border: 0;
   flex-direction: initial;
@@ -619,23 +623,29 @@
 .modal-right form .checkbox input {
   width: auto;
 }
-.modal-right form .checkbox p , .modal-right form .checkbox label {
+
+.modal-right form .checkbox p,
+.modal-right form .checkbox label {
   font-size: 12px;
 }
 
 .whitepaper-modal-custom .submit-btn {
   align-self: flex-end;
 }
+
 .whitepaper-modal-custom .modal-right form {
   display: flex;
   flex-direction: column;
 }
+
 .whitepaper-modal-custom .modal-right form {
   margin-top: 5%;
 }
+
 .whitepaper-modal-custom .modal-right form label {
   display: none;
 }
+
 .modal-right form .form-item-policy {
   border: 0;
   background: transparent;
@@ -645,36 +655,142 @@
   display: flex;
   gap: 0 13px;
 }
+
 .modal-right form .form-item-policy input {
   width: auto;
 }
+
 .modal-right form .form-item-policy label {
   display: block;
   font-size: 12px;
 }
 
 .remove___modal .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.webform-confirmation-modal {
-  display: none;
+  display: none !important;
 }
+
 .remove___modal #drupal-live-announce {
+  display: none !important;
+}
+
+.remove___modal .ui-widget-overlay.ui-front {
+  display: none !important;
+}
+
+.modal-right form #edit-actions {
+  background: linear-gradient(45deg, #6a00ff, #c400ff);
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  align-self: flex-end;
+}
+
+.modal-right form #edit-actions input {
+  color: #fff;
+  border: 0;
+  background: transparent;
+}
+
+.modal-right form #edit-policy--description {
   display: none;
 }
-.remove___modal .ui-widget-overlay.ui-front {
+
+.messages-list {
   display: none;
+}
+
+#white-papers-section .white-paper-card {
+  width: 50%;
+}
+
+#white-papers-section .white-paper-card .card-title {
+  padding: 0 50px 0px 0px;
+  width: 83%;
+}
+
+#white-papers-section .white-papers-cards {
+  justify-content: center;
+}
+
+.modal-left>h3 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: ;
+}
+
+.form__left {
+  height: 105px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+.form__left h3 {
+  margin-bottom: 0;
+
+}
+
+.form__left span {
+  color: #1F3D7A;
+  font-family: Manrope;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  -webkit-text-fill-color: #1F3D7A;
+}
+.remove___modal .sc--footer-linkdden {
+  padding-top: 0;
 }
 @media (max-width: 991px) {
 
-.whitepaper-modal-custom .whitepaper-modal-box {
-  flex-direction: column;
-  padding: 15px;
-  height: 600px;
-  overflow: scroll;
+
+#white-papers-section .white-paper-card .card-title {
+  width: 100%;
 }
-.whitepaper-modal-custom .modal-left {
+
+#white-papers-section .white-paper-card  .card-download {
+  font-size: 16px;
+  line-height: normal;
 }
-.modal-left p {
-  font-size: 12px;
+#white-papers-section .white-paper-card {
+  width: 100%;
 }
+.form__left h3 {
+  font-size: 22px;
+  line-height: normal;
+}
+.card-icon {
+  width: 80px;
+  height: 80px;
+}
+.form__left span {
+  font-size: 10px;
+}
+.form__left {
+  height: 80px;
+}
+  #white-papers-section .white-paper-card {
+    width: 100%;
+  }
+
+  .whitepaper-modal-custom .whitepaper-modal-box {
+    flex-direction: column;
+    padding: 15px;
+    height: 600px;
+    overflow: scroll;
+  }
+
+  .whitepaper-modal-custom .modal-left {}
+
+  .modal-left p {
+    font-size: 12px;
+  }
+
   .white-papers-cards {
     flex-direction: column;
     gap: 20px 0;
@@ -764,4 +880,24 @@
     height: 30px;
     display: none;
   }
+}
+
+/*  */
+
+.card-download.hidden {
+  display: none;
+}
+
+.card-download_1 {
+  color: #7620C6;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  text-align: left;
+  display: flex;
+  align-content: center;
+  gap: 010px;
 }

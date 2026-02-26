@@ -11,6 +11,7 @@ libraries:
   - ux4mation/global-js
   - ux4mation/addtoany-js
 
+
 regions:
   top_header: Top header
   primary_menu: Primary menu
