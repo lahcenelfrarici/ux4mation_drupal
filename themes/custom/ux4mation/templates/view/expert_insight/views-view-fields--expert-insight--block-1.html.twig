@@ -122,10 +122,10 @@
       <button class="media-tab-btn" data-filter="event">Event</button> #}
 
 
- {% set categories = [] %}
+ {# {% set categories = [] %}
 
-{% if row._entity.field_type_categorie is not empty %}
-  {% for item in row._entity.field_type_categorie %}
+{% if row._entity.field_type_categorie_expert is not empty %}
+  {% for item in row._entity.field_type_categorie_expert %}
     {% set categories = categories|merge([item.value]) %}
   {% endfor %}
 {% endif %}
@@ -135,8 +135,8 @@
           <div class="media-card-box">
             <div class="box__all_top">
 
-                      {% if row._entity.field_type_tags is not empty %}
-  {% for item in row._entity.field_type_tags %}
+                      {% if row._entity.field_type_categorie_expert is not empty %}
+  {% for item in row._entity.field_type_categorie_expert %}
     <span class="media-label">{{ item.value }}</span>
   {% endfor %}
 {% endif %}
@@ -150,5 +150,25 @@
             </h3>
             <a href="{{ path('entity.node.canonical', {'node':row._entity.nid.value}) }}" class="media-read-btn">{{'Read More'|t}}</a>
           </div>
-        </div>
+        </div> #}
 
+
+<div class="insight-wrapper">
+                    <div class="insight-badge">
+                                    {% if row._entity.field_type_categorie_expert is not empty %}
+  {% for item in row._entity.field_type_categorie_expert %}
+    <span class="badge-label">{{ item.value }}</span>
+  {% endfor %}
+{% endif %}
+
+                    </div>
+                    <h2 class="insight-heading">
+                       {{ fields.title.content }}
+                    </h2>
+                    <p class="insight-summary">
+                        {{ fields.body.content }}
+                    </p>
+                    <div class="insight-action">
+                        <a class="insight-button"  href="{{ path('entity.node.canonical', {'node':row._entity.nid.value}) }}">{{'Read insight'|t}}</a>
+                    </div>
+                </div>

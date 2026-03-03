@@ -571,7 +571,7 @@
   });
   //
 
-  $('#owl___item_all').owlCarousel({
+  $('#owl___item_all , .card__ex').owlCarousel({
     items: 2,
     loop: true,
     margin: 30,

@@ -1,0 +1,112 @@
+<style>
+	.wisiwig---body .card {
+		border: none;
+	}
+
+	.wisiwig---body .card-img {
+		border-radius: 0;
+	}
+
+	.wisiwig---body .vgr-cards .card {
+		display: flex;
+		flex-flow: wrap;
+		flex: 100%;
+		margin-bottom: 40px;
+		width: 100%;
+		border-radius: 20px;
+		background: linear-gradient(107deg, #FFF 38.2%, rgba(255, 255, 255, 0.96) 97.98%);
+		box-shadow: 0 1px 68.9px 0 rgba(97, 106, 178, 0.20);
+		padding: 30px;
+		align-items: center;
+	}
+
+	{# .wisiwig---body .vgr-cards .card:nth-child(even) .card-img-body {
+		order: 2;
+	} #}
+
+	.wisiwig---body .vgr-cards .card:nth-child(even) .card-body {
+		padding-left: 0;
+		padding-right: 1.25rem;
+	}
+
+	@media(max-width: 576px) {
+		.wisiwig---body .vgr-cards .card {
+			display: block;
+		}
+	}
+
+	.wisiwig---body .vgr-cards .card-img-body {
+		overflow: hidden;
+		position: relative;
+	}
+
+	@media(max-width: 576px) {
+		.wisiwig---body .vgr-cards .card-img-body {
+			width: 100%;
+			height: 200px;
+			margin-bottom: 20px;
+		}
+	}
+
+	.wisiwig---body .vgr-cards .card-img {
+		width: 100%;
+		height: auto;
+		margin: 0;
+		border-radius: 20px;
+	}
+
+	@media(max-width: 1140px) {
+		.wisiwig---body .vgr-cards .card-img {
+			margin: 0;
+			transform: none;
+			width: 100%;
+			height: auto;
+		}
+	}
+
+	.wisiwig---body .vgr-cards .card-body {
+		flex: 2;
+		padding: 0 0 0 1.25rem;
+	}
+
+	@media(max-width: 576px) {
+		.wisiwig---body .vgr-cards .card-body {
+			padding: 0;
+		}
+	}
+</style>
+<section class="banner--bg sc--test" id="Careers">
+	<div class="img--banner">
+		<img src="\themes\custom\ux4mation\public\images\banner_blogs_1.png" width="1920" height="604">
+		<div class="container wrapper-text-banner">
+			<div class="row">
+				<div class="col-sm-12 mt-5">
+					<h2>
+						<meta charset="utf-8"><span style="white-space:pre-wrap;">{{ node.title.value }}</span>
+					</h2>
+					<p class="rapp1">
+						{{node.field_subtitle.value}}
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div
+	class="wisiwig---body">
+  <div class="container">
+  <div class="card-group vgr-cards">
+  {{content.body}}
+    <!-- Card 1 -->
+
+
+    <!-- Card 2 -->
+
+
+    <!-- Card 3 -->
+
+
+  </div>
+</div>
+</div>

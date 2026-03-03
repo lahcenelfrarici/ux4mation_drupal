@@ -110,7 +110,9 @@
                   <h3 class="media-title">
                     {{ fields.title.content }}
                   </h3>
-                  <p>{{ fields.body.content }}</p>
+                    <div class="body___blgos">
+                    <p>{{ row._entity.field_subtitle.value }}</p>
+                    </div>
                   <a href="{{ path('entity.node.canonical', {'node':row._entity.nid.value}) }}" class="media-read-btn">{{'Read More'|t}}</a>
                 </div>
               </div>
