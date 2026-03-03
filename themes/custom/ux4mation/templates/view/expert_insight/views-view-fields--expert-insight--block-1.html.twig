@@ -152,9 +152,7 @@
           </div>
         </div> #}
 
-
-<div class="insight-wrapper">
-                    <div class="insight-badge">
+{# <div class="insight-badge">
                                     {% if row._entity.field_type_categorie_expert is not empty %}
   {% for item in row._entity.field_type_categorie_expert %}
     <span class="badge-label">{{ item.value }}</span>
@@ -170,5 +168,39 @@
                     </p>
                     <div class="insight-action">
                         <a class="insight-button"  href="{{ path('entity.node.canonical', {'node':row._entity.nid.value}) }}">{{'Read insight'|t}}</a>
-                    </div>
-                </div>
+                    </div> #}
+{# <div class="insight-wrapper" id="swipper__slide">
+    <div class="item__img owl-carousel card__ex_item">
+        <div class="owl___item">
+          <img src="\themes\custom\ux4mation\public\images\Artboard 1.png">
+        </div>
+        <div class="owl___item">
+          <img src="\themes\custom\ux4mation\public\images\Artboard 1.png">
+        </div>
+        <div class="owl___item">
+          <img src="\themes\custom\ux4mation\public\images\Artboard 1.png">
+        </div>
+        <div class="owl___item">
+          <img src="\themes\custom\ux4mation\public\images\Artboard 1.png">
+        </div>
+        <div class="owl___item">
+          <img src="\themes\custom\ux4mation\public\images\Artboard 1.png">
+        </div>
+    </div>
+
+</div> #}
+<div class="insight-wrapper">
+  <div class="item__img owl-carousel card__ex_item">
+
+    {% for image in row._entity.field_image %}
+      {% if image.entity %}
+        <div class="owl___item">
+          <img src="{{ file_url(image.entity.uri.value) }}"
+               alt="{{ image.alt }}"
+               title="{{ image.title }}">
+        </div>
+      {% endif %}
+    {% endfor %}
+
+  </div>
+</div>

@@ -571,7 +571,7 @@
   });
   //
 
-  $('#owl___item_all , .card__ex').owlCarousel({
+  $('#owl___item_all').owlCarousel({
     items: 2,
     loop: true,
     margin: 30,
@@ -590,6 +590,56 @@
       },
       768: {
         items: 2
+      }
+    }
+  });
+  $('.card__ex').owlCarousel({
+    items: 3,
+    loop: false,
+    margin: 30,
+    dots: true,
+    nav: true,
+    smartSpeed: 800,
+mouseDrag: false,
+touchDrag: false,
+pullDrag: false,
+freeDrag: false,
+    navText: [
+      '<img src="/themes/custom/ux4mation/public/images/arr2.png" alt="Left">',
+      '<img src="/themes/custom/ux4mation/public/images/arr1.png" alt="Right">'
+    ],
+
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 3
+      }
+    }
+  });
+  //
+    $('.card__ex_item').owlCarousel({
+    items: 1,
+    loop: false,
+    margin: 30,
+    dots: true,
+    nav: true,
+    smartSpeed: 800,
+
+
+
+    navText: [
+      '<img src="/themes/custom/ux4mation/public/images/left____svg.svg" alt="Left">',
+      '<img src="/themes/custom/ux4mation/public/images/right____svg.svg" alt="Right">'
+    ],
+
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 1
       }
     }
   });
